@@ -50,6 +50,6 @@ mod tests {
             .unwrap();
 
         assert_eq!(response.status(), StatusCode::OK);
-        assert_eq!(response.headers().get("x-gotham").unwrap(), "Hello World!");
+        assert_eq!(response.headers().get("x-gotham").unwrap(), "Hello world!");
     }
 }
